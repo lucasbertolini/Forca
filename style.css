@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+  color: purple;
+  text-align: center;
+}
+.title {
+  text-transform: uppercase;
+}
+.botao-iniciar {
+  background-color: transparent;
+  color: white;
+  border: 2px solid purple;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.botao-iniciar:hover {
+  background-color: #b200ff;
+}
+.forca {
+  font-size: 1.5em;
+  text-align: center;
+  display: block;
+  height: 20%;
+  color: #b200ff;
+  margin-top: 2em;
+}
+
+.button-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 2%;
+}
+.botoes {
+  width: 50px;
+  border: 2px solid purple;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+  text-transform: uppercase;
+  margin: 20px;
+}
+.botoes:hover {
+  background-color: #b200ff;
+  transform: scale(1.5);
+  color: white;
+}
+.first {
+  margin-left: 5%;
+}
+.first-z {
+  margin-left: 10%;
+}
